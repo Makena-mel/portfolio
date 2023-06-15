@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background:url(176cef5fc05e74aae63a05ab3dee28f8.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.huge{
+    width: 100%;
+    height: 100vh;
+
+}
+
+.label{
+    width: 1200px;
+    float: left;
+    height: 70px;
+    margin: auto;
+
+}
+.icon{
+    color: #000;
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: 400;
+    padding-left: 10px;
+    float: left;
+    padding-top: 12px;
+
+}
+
+.more{
+    width: 400px;
+    float: left;
+    height: 60px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    font-size: 16px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(86, 86, 170);
+
+}
+.header{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    color: rgb(31, 27, 27);
+    position: relative;
+
+}
+.header h1{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    margin-top: 8%;
+    letter-spacing: 2px;
+    margin-right: 2%;
+    font-size: 40px;
+    font-weight: 200;
+    color: rgb(202, 215, 240);
+    font-family:  Tahoma;
+    
+    
+}
+.header p{
+    padding-left: 25px;
+    line-height: 20px;
+    letter-spacing: -.04em;
+    padding-bottom: 20px;
+    font-family: Tahoma;
+    color: rgb(236, 187, 187);
+
+}
+.header button{
+    width: 200px;
+    height: 30px;
+    background: rgb(248, 247, 248);
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+
+.header button a{
+    text-decoration: none;
+    transition: .3s ease;
+    color: rgb(41, 34, 34);
+
+}
+.header button:hover{
+    background:rgb(80, 80, 175);
+
+}
+.am{
+    width: 100%;
+    height: 80vh;
+
+}
+.abt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+
+}
+.abt h2{
+    font-size: 40px;
+    font-family: Tahoma;
+    color: #000;
+    margin-right: 2%;
+    font-weight: 900;
+    padding-left: 20px;
+}
+
+.abt p{
+    max-width: 670px;
+    padding-left: 20px;
+    font-size: 22px;
+    font-family: 'Times New Roman';
+    color: rgb(236, 187, 187);
+    line-height: 32px;
+    padding-bottom: 24px;
+
+}
+
+.prtg{
+    width: 100%;
+    height: 100%;
+
+}
+
+.sadet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.sadet h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Times New Roman';
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.mains{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+
+}
+.hey{
+    display :flex;
+    flex-direction:column ;
+    width: 50%;
+    height: 80%;
+    
+
+}
+.hey img{
+    width: 50%;
+    height: 60%;
+    margin-left: 5%;
+
+}
+.excpu, .tiue, .tryf, .rews{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.excpu h1, .tiue h1, .tryf h1, .rews h1{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Times New Roman';
+    color: #000;
+    margin-left: 2%;
+    letter-spacing: -.04em;
+
+}
+.excpu p, .tiue p, .tryf p, .rews p{
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Tahoma;
+    letter-spacing: -.02em;
+    color: rgb(236, 187, 187);
+}
+.ubint{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 70%;
+    
+
+}
+.ubint img{
+    width: 40%;
+    height: 50%;
+
+}
+.tourism{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+
+}
+.tourism img{
+    width: 50%;
+    height: 60%;
+    margin-left: 5%;
+
+}
+.frcgtd{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+
+}
+.frcgtd img{
+    width: 40%;
+    height: 40%;
+}
+.sertg{
+    width: 100%;
+    height: 100%;
+
+}
+.whyst{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+
+}
+.tep{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20%;
+    padding-top: 20%;
+    width: 100%;
+    height: 80%;
+
+}
+.tep h1{
+    color: #000;
+    font-weight: 700;
+    font-family: Arial;
+    font-size: 40px;
+    padding-left: 2%;
+    letter-spacing: -.04em;
+
+}
+.tep p{
+    color: rgb(236, 187, 187);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Tahoma;
+    line-height: 26px;
+    letter-spacing: -.02em;
+    padding-left: 4%;
+}
+.techs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    padding-top: 5%;
+
+}
+
+.fron h3, .bac h3, .jui h3{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: Arial;
+    letter-spacing: -.04em;
+    color: #000;
+
+}
+.fron p, .bac p, .jui p{
+    font-size: 18px;
+    color: #411d1d;
+    font-weight: 200;
+    font-family: Tahoma;
+    letter-spacing: -.01em;
+    line-height: 20px;
+
+}
+.blr{
+    width: 90%;
+    height: 50%;
+
+}
+.guty{
+    width: 100%;
+    height: 50%;
+    padding-left: 5%;
+    padding-top: 3%;
+
+}
+.guty h1{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Times New Roman';
+    font-weight: 800;
+    letter-spacing: -.03em;
+}
+.cont{
+    width: 100%;
+    height: 40%;
+
+}
+.get{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.get h1{
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    color: #fff;
+    padding-left: 5%;
+
+}
+.pa{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4%;
+    align-items: center;
+}
+.pa li{
+    list-style: none;
+    padding-left: 5%;
+    margin-left: -600px;
+    margin-bottom: 10px;
+
+}
+.pa li a{
+    color: #fff;
+
+}
+.pa li a:hover{
+    color: aqua;
+    transition: .3s ease-in-out;
+}
